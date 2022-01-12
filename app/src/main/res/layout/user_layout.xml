@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:elevation="10dp"
+    android:layout_height="wrap_content">
+
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/userImageView"
+        android:src="@drawable/image2"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/userImageView"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Username"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:id="@+id/usernameTextView"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User mobile Number"
+            android:textSize="16sp"
+            android:id="@+id/userMobileNumber"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
