@@ -49,4 +49,9 @@ dependencies {
 
     //adding dependency for recycler view
     implementation "androidx.recyclerview:recyclerview:1.2.1"
+    //retrofit dependency
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    //gson converter
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+
 }
